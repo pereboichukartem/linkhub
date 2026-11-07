@@ -16,6 +16,7 @@ function applyTheme(theme) {
     );
 }
 
+
 const savedTheme = localStorage.getItem('theme');
 const initialTheme = savedTheme || 'light';
 applyTheme(initialTheme);
